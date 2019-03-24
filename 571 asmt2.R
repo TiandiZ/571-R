@@ -86,7 +86,7 @@ ggplot(New_Brighton_Ppsqft, aes)
 
 
 # Extract PpSqFt from each region
-
+# test
 # Extract PpSqFt from WestNewBrighton
 WestNewBrighton_data = WestNewBrighton_Ppsqft['PpSqFt']
 print(WestNewBrighton_data)
