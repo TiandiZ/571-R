@@ -85,8 +85,5 @@ ggplot(zscores.3)+geom_point(mapping=aes(x=Residential,y=Commercial,size=Average
 
 
 #t test
-
-
-
 t.test(x = df.NewBrighton$SalePrice, y = df.Stapleton$SalePrice,alternative = "g",conf.level = .95)
 
