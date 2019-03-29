@@ -31,7 +31,7 @@ df.257 <- filter(df, NbhoodID==257) %>%
 summarise(df.236, meanSalePrice=mean(SalePrice), meanGrossSqFt=mean(GrossSqFt), medianSalePrice=median(SalePrice),medianGrossSqFt=median(GrossSqFt),n=n())
 #standard deviation-->dispersion
 summarise(df.236, sdSalePrice=sd(SalePrice), sdGrossSqFt=sd(GrossSqFt))
-#k means method
+#k means
 #KPI1: average sale price
 KPI.1 <- group_by(df, NbhoodID) %>%
   mutate(AverageSalePrice=mean(SalePrice), Residential=ResidentialUnits, Commercial=CommercialUnits)%>%
